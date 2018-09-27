@@ -1,13 +1,16 @@
 {% load static %}
 <html>
     <head>
-		<title>Murali's blog</title>
+		
 		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
 		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
 		<link rel="stylesheet" href="{% static 'css/blog.css' %}">
         
     </head>
     <body>
+		<div class="page-header">
+			<h1><a href="/">Murali's Blog</a></h1>
+		</div>
         {% block content %}
 		{% endblock %}
     </body>
